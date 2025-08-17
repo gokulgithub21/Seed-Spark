@@ -1,7 +1,7 @@
 # 🌱 Seed Spark – Vegetable Seeds E-Commerce Android App
 
-An Android e-commerce application for browsing and purchasing **vegetable seeds**.  
-Built with **Java (Android Studio)** and powered by **Firebase/MySQL backend** (based on your doc).  
+A Android e-commerce application for browsing and purchasing **vegetable seeds**.  
+Built with **Java (Android Studio)** and powered by **Firebase**.  
 It includes secure authentication, product browsing, cart management, and order tracking.
 
 ---
@@ -42,16 +42,6 @@ seed-spark/
 2. Open the project in **Android Studio**.
 3. Sync Gradle files.
 4. Connect device/emulator → Run the app 🚀
-
----
-
-## 📸 Screenshots
-
-
-- **Login Page**  
-- **Home/Product List**  
-- **Cart**  
-- **Order History**  
 
 ---
 
