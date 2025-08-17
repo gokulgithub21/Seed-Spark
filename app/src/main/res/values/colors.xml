@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000080</color>
+    <color name="colorPrimaryDark">#D323F1</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorApp">#22B14C</color>
+    <color name="colorGray">#CFD6D6</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorNavyBlue">#000080</color>
+    <color name="red">#F44336</color>
+    <color name="stock_available">#4CAF50</color>
+    <color name="stock_out">#F44336</color>
+    <color name="button_disabled">#F44336</color>
+    <color name="button_enabled">#22B14C</color>
+</resources>

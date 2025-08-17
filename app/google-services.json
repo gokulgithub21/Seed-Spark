@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "249603136291",
+    "project_id": "vegetable-a039e",
+    "storage_bucket": "vegetable-a039e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249603136291:android:0fc942c67742bb45968a96",
+        "android_client_info": {
+          "package_name": "com.gokul.vegetable"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ5re2HMLZAIk_F67-Sh07Idkm7uLRFbc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

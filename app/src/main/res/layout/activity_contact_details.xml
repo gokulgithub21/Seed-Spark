@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.ContactDetailsActivity">
+
+    <ImageView
+        android:id="@+id/contact_logo"
+        android:layout_width="192dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="Company Logo"
+        android:src="@drawable/rounded_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/contact_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="8dp"
+        android:text="SeedSpark"
+        android:textColor="@color/colorApp"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/contact_logo" />
+
+    <TextView
+        android:id="@+id/contact_enquiry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:text="If any problem contact us:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/contact_name" />
+
+    <ImageView
+        android:id="@+id/contact_phone_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="36dp"
+        android:contentDescription="Phone Icon - Call Us"
+        android:src="@drawable/phone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/contact_enquiry" />
+
+    <TextView
+        android:id="@+id/contact_phone_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:text="Phone:"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/contact_phone_icon"
+        app:layout_constraintTop_toTopOf="@id/contact_phone_icon" />
+
+    <TextView
+        android:id="@+id/contact_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+91 6374842550"
+        android:textSize="16sp"
+        android:clickable="true"
+        android:focusable="true"
+        android:textColor="@color/colorPrimary"
+        android:contentDescription="Contact phone number"
+        app:layout_constraintStart_toEndOf="@id/contact_phone_label"
+        app:layout_constraintTop_toTopOf="@id/contact_phone_label"
+        android:layout_marginStart="8dp" />
+
+    <ImageView
+        android:id="@+id/contact_callnow"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/callnow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/contact_phone" />
+
+
+
+    <ImageView
+        android:id="@+id/contact_email_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="Email Icon - Email Us"
+        android:src="@drawable/email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/contact_phone" />
+
+    <TextView
+        android:id="@+id/contact_email_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="Email:"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/contact_email_icon"
+        app:layout_constraintTop_toTopOf="@id/contact_email_icon" />
+
+    <TextView
+        android:id="@+id/contact_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="gokuls0607@gmail.com"
+        android:textSize="16sp"
+        android:clickable="true"
+        android:focusable="true"
+        android:textColor="@color/colorPrimary"
+        android:contentDescription="Contact email address"
+        app:layout_constraintStart_toEndOf="@id/contact_email_label"
+        app:layout_constraintTop_toTopOf="@id/contact_email_label" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
